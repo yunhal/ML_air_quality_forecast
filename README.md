@@ -1,44 +1,51 @@
-Project Title: Air Quality Forecasting with Machine Learning models
+P# Air Quality Forecasting with Machine Learning Models
 
+## Description
 
-Description:
-
-This repository contains the refactored and cleaned-up versions of machine learning models originally developed for this paper below: 
-https://www.frontiersin.org/articles/10.3389/fdata.2023.1124148/full
-
-The original version of the models is available in https://gitlab.com/casus_atm_modeling/ml_multi_site
+This repository contains the refactored and cleaned-up versions of machine learning models originally developed for the paper: [Air Quality Forecasting with Machine Learning](https://www.frontiersin.org/articles/10.3389/fdata.2023.1124148/full). The original version of the models is available at [GitLab Repository](https://gitlab.com/casus_atm_modeling/ml_multi_site).
 
 The primary focus of this repository is to provide well-documented, standardized, and improved versions of these models for better usability and understanding.
 
-Features:
+## Features
 
-    Refactored Code: The original codebase from the gitlab Repository has been significantly refactored for better readability and maintainability.
+- **Refactored Code:** The original codebase from the GitLab repository has been significantly refactored for better readability and maintainability.
+- **Documentation:** Detailed comments and descriptions have been added to improve clarity.
 
-    Documentation: Detailed comments and descriptions have been added to improve clarity.
+## Models
 
-Models
+This repository includes the following models:
 
-Briefly describe each model included in this repository. For example:
+- **Model A:** Random forecast classifiers and multiple linear regression models.
+- **Model B:** Two-phase random forest regression model.
 
-    Model A: random forecast classifiers and multiple linear regression models
-    Model B: two-phase random forest regression model
+## Getting Started
 
+### Dependencies
 
-Getting Started
+`ML_env.yml` contains the Python libraries needed to run these models.
 
-Dependencies: ML_env.yml contains the python libraries need to be installed to run these models. 
+### Installing
 
-Installing: 
+To set up the project, run the following commands:
 
-------
+```bash
 git clone git@github.com:yunhal/ML_air_quality_forecast.git
 cd ML_air_quality_forecast
 conda env create -f ML_env.yml
-------
+```
 
-Executing Program: 
-python prep_input_data.py # to prepare the input data for ML 
-python Predict_O3_PM25.py # to compute O3/PM2.5 predictions using the input datasets
+### Executing Program: 
+* To prepare the input data for machine learning:
+```
+python prep_input_data.py
+```
+
+*To compute O3/PM2.5 predictions using the input datasets:
+```
+python Predict_O3_PM25.py
+```
 
 
-Main Authors: Kai Fan and Yunha Lee (PI)
+### Main Authors: 
+* Kai Fan
+* Yunha Lee (PI)
