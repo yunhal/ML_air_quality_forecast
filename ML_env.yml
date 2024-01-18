@@ -1,0 +1,23 @@
+name: ML
+channels:
+        - conda-forge
+
+dependencies:
+        - python=3.8
+        - numpy
+        - cartopy
+        - matplotlib
+        - pandas
+        - scipy
+        - seaborn
+        - pillow
+        - mpich
+        - jupyter
+        - jupyter_client
+        - geos
+        - scikit-learn
+        - yaml
+        - pip
+        - wrf-python
+        - netcdf4
+        - ipykernel
