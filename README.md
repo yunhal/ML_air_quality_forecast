@@ -1,4 +1,4 @@
-P# Air Quality Forecasting with Machine Learning Models
+# Air Quality Forecasting with Machine Learning Models
 
 ## Description
 
